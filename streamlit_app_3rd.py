@@ -28,7 +28,7 @@ def main():
     Type = st.selectbox("Type" , ['small_cars', 'city_cars', 'convertible', 'compact', 'SUV',
        'sedan', 'coupe', 'station_wagon', 'minivan'])
     Production_year = st.slider("Production_year" , min_value= 2000 , max_value=2021 , value=0,step=1)
-    Mileage_km = st.slider("Mileage_km" , min_value= 0 , max_value=500000000 , value=0,step=10)
+    Mileage_km = st.slider("Mileage_km" , min_value= 0 , max_value=5000000 , value=0,step=10)
     Power_HP = st.slider("Power_HP" , min_value= 0 , max_value=800 , value=0,step=1)
 
 
